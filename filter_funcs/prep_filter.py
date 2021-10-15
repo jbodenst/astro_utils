@@ -21,15 +21,15 @@ url_prefix = 'http://svo2.cab.inta-csic.es/svo/theory/fps/getdata.php?format=asc
 
 ############################## USER INPUT ################################
 # location of the master filter file and all transmission curves
-filter_path = './filters/'
+filter_path = './'
 
 
 # information from http://svo2.cab.inta-csic.es/svo/theory/fps/index.php #
 
-instrument = 'GAIA'
-filter_name = 'GAIA2r.Gbp'
-lambda_eff = 5020.92  # Angstrom, mathematical properties lambda_eff
-flux_zeropoint = 4.03528E-9  # erg/s cm^2 A, Zero point in Vega system
+instrument = 'Hipparcos'
+filter_name = 'Hipparcos.Hp'
+lambda_eff = 4897.85 # Angstrom, mathematical properties lambda_eff
+flux_zeropoint = 4.39E-9  # erg/s cm^2 A, Zero point in Vega system
 ##########################################################################
 
 # check if the filter exists already in json filter file
