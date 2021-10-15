@@ -2,7 +2,7 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 
-filter_path = './filters/'
+filter_path = './'
 filter_infile = filter_path + 'filters.json'
 with open(filter_infile) as f:
     master_filter = json.load(f)
