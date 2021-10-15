@@ -72,6 +72,9 @@ def read_fits(infile):
         elif (ins == 'UVES'):
             wave, flux = read_UVES(infile)
 
+        elif (ins == 'GIRAFFE'):
+            wave, flux = read_UVES(infile)
+
         elif (ins == 'HRS'):
             wave, flux = read_SALT(infile)
 
@@ -212,7 +215,7 @@ def read_FEROS(infile):
 
 
 def read_UVES(infile):
-    print("%s: Input file is a UVES file." % infile)
+    print("%s: Input file is a UVES or GIRAFFE file." % infile)
     header = fits.getheader(infile)
     if 'SPEC_COM' in header:
         table = Table.read(infile, hdu=1)
