@@ -76,5 +76,11 @@
       "filtername": "GAIA2r.Gbp",
       "lambda_eff": 5020.92,
       "fzeropoint": 4.03528e-09
+   },
+   {
+      "instrument": "Hipparcos",
+      "filtername": "Hipparcos.Hp",
+      "lambda_eff": 4897.85,
+      "fzeropoint": 4.39e-09
    }
 ]
